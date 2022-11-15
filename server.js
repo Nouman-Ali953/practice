@@ -67,7 +67,10 @@ app.use(express.static(staticPath));
 
 
 const URL = "mongodb+srv://nouman:myVacationProject@cluster0.i0p3cal.mongodb.net/LGU"
-mongoose.connect(URL).then(()=>{
+mongoose.connect(URL,{
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(()=>{
     console.log("Database is connected...")
 }).catch((e)=>{
     console.log(`Invalid Connection to Database ${e}`);
