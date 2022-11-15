@@ -4,7 +4,6 @@ const path = require('path');
 
 const express = require('express');
 
-const mongoose = require ('mongoose');
 const bcrypt = require('bcryptjs');
 // const bcrypt = require("bcryptjs");
 
@@ -33,7 +32,7 @@ app.use(express.urlencoded({extended:false}));
 
 const Student = require("./src/db/schema/Student");
 const Register = require("./src/db/schema/Student");
-const connect = require("./src/db/connect");
+// const connect = require("./src/db/connect");
 
 
 
@@ -67,8 +66,8 @@ const staticPath = path.join('./public');
 app.use(express.static(staticPath));
 
 
-
- const connect = mongoose.connect("mongodb+srv://nouman:myVacationProject@cluster0.i0p3cal.mongodb.net/LGU").then(()=>{
+const URL = "mongodb+srv://nouman:myVacationProject@cluster0.i0p3cal.mongodb.net/LGU"
+mongoose.connect(URL).then(()=>{
     console.log("Database is connected...")
 }).catch((e)=>{
     console.log(`Invalid Connection to Database ${e}`);
