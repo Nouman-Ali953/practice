@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>headerlink}}
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&display=swap');
+    
+        .container{
+            box-sizing: border-box;
+            background-image: url('../../sports2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container h2{
+            width: 100%; height: 92vh; font-size: 4.2rem; display:flex; justify-content: center; align-items: center; margin:0%;
+            color: black;
+            font-family: 'Lobster', cursive;
+            word-spacing: .4rem;
+            
+            text-shadow: 1px 1px 1px white;
+
+        }
+        .container h2 span {
+            text-transform: uppercase;
+            font-size: 4.3rem;
+            font-weight: 600;
+            text-decoration-style: wavy;
+            color: #bfff00;
+            box-shadow: 2px 2px 4px rgb(247, 244, 244);
+            text-decoration-color: green;
+            font-family: 'Bakbak One', cursive;
+            text-shadow: 1px 1px 1px white;
+            }
+
+            @media only screen and (max-width:550px){
+                .container{
+                    
+
+                     box-sizing: border-box;
+                     background-position-x: center;
+
+                     background-image: url('/Images/Shahid.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+                    
+
+                }
+                .container h2{
+                    flex-direction: column;
+                    text-align: center;
+                }
+                
+            }
+
+            
+           
+            }
+    </style>
+    
+</head>
+<body>
+    {{>header}}
+
+    <div class="container">
+        <h2   >About For The <span style=";margin-left:.7rem; padding:1.3rem  1.7rem; "> Sports</span>  </h2>
+    </div>
+
+
+
+
+{{>footer}}
+    
+    
+</body>
+</html>

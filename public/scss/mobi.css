@@ -1,0 +1,383 @@
+@media only screen and (max-width: 450px) {
+  #nav1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 65px;
+  }
+  #nav1 #ser {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+    width: 80%;
+  }
+  #nav1 #ser input, #nav1 #ser search {
+    width: 94%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 0.2px solid black;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+  }
+  #nav1 #ser ::-moz-placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1 #ser :-ms-input-placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1 #ser ::placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1:hover {
+    min-height: 63rem;
+    transition: 0.3s ease-in;
+  }
+  #nav1 i {
+    position: relative;
+    top: 1.4rem;
+    right: 3.1rem;
+    font-size: 2.3rem;
+  }
+  #nav1 .cont {
+    min-height: 65px;
+    display: none;
+    margin: auto;
+    padding: 0px;
+  }
+  #nav1 .cont ul {
+    visibility: none;
+    width: 80%;
+    border: none;
+    display: block;
+    padding: 0%;
+    margin-top: 0rem;
+  }
+  #nav1 .cont ul li {
+    border-bottom: 0.2px solid black;
+    background-color: white;
+    display: block;
+    padding: 1rem 0rem;
+  }
+  #nav1 .cont ul li a {
+    font-size: 1.6rem;
+    color: gray;
+  }
+  #nav1:hover .cont {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    transition: 2s ease-in;
+  }
+  .nav2 {
+    display: flex;
+    max-width: 100%;
+    min-height: 123px;
+    border: none;
+    flex-direction: column;
+    min-height: 14.5rem;
+  }
+  .nav2 #ser {
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  }
+  .nav2 #ser input, .nav2 #ser search {
+    display: flex;
+    max-width: 90%;
+    flex-basis: 38rem;
+    flex-shrink: 1;
+    height: 50px;
+    border: none;
+    border: 0.1px solid black;
+    outline: none;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+  }
+  .nav2 #ser ::-moz-placeholder {
+    font-size: 2.5rem;
+  }
+  .nav2 #ser :-ms-input-placeholder {
+    font-size: 2.5rem;
+  }
+  .nav2 #ser ::placeholder {
+    font-size: 2.5rem;
+  }
+  .nav2:hover {
+    min-height: 40rem;
+    transition: 0.3s ease-in;
+  }
+  .nav2 #left {
+    border: none;
+    width: 100%;
+    height: 150px;
+  }
+  .nav2 #left img {
+    display: none;
+  }
+  .nav2 #left #img2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav2 #left #img2 img {
+    width: 100%;
+  }
+  .nav2 #right {
+    display: none;
+  }
+  .nav2 #right ul {
+    width: 90%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+  }
+  .nav2 #right ul li {
+    border: 0.001rem solid black;
+    background-color: white;
+    display: block;
+    padding: 1rem 0rem;
+  }
+  .nav2 #right ul li a {
+    font-size: 1.6rem;
+    color: gray;
+  }
+  .nav2:hover #right {
+    width: 90%;
+    margin: 0px;
+    transition: 0.5s ease-in;
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .sec1 video {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .sec1 #con {
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    left: 2.5rem;
+  }
+  .sec1 #con h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+  }
+  .sec1 #con span {
+    width: 5rem;
+  }
+  #sec2 {
+    flex-direction: column;
+  }
+  #sec2 .cont {
+    width: 98%;
+    flex-direction: column;
+  }
+  #sec2 .cont .img-cont {
+    margin-left: 0px;
+  }
+  #sec2 .right-cont {
+    width: 98%;
+    text-align: center;
+    line-height: 0.1rem;
+  }
+  #sec2 .right-cont h2 {
+    line-height: 3.8rem;
+    margin: 0.3rem auto;
+  }
+  #sec2 .right-cont h4 {
+    line-height: 2.4rem;
+  }
+  #admission .admit {
+    width: 60%;
+  }
+  #admission .admit img {
+    width: 100%;
+  }
+  #sec4 .content {
+    width: 95%;
+  }
+  #sec4 .content h2 {
+    text-align: center;
+  }
+  #sec4 .content p {
+    margin: 3%;
+  }
+  .count .img-cont .txt {
+    margin-top: 4rem;
+  }
+  #academics {
+    flex-direction: column;
+  }
+  #academics .cont1 {
+    width: 90%;
+  }
+  #academics .cont2 {
+    width: 90%;
+  }
+  #academics .cont2 .box {
+    width: 85%;
+  }
+  .footer #first {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.3fr 0.4fr 0.4fr 0.5fr;
+    grid-template-areas: "cont1" "cont2" "cont3" "cont4" "cont5";
+  }
+  .footer #first h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .footer #first .cont1 {
+    grid-area: cont1;
+  }
+  .footer #first .cont2 {
+    grid-area: cont2;
+  }
+  .footer #first .cont3 {
+    grid-area: cont3;
+  }
+  .footer #first .cont4 {
+    grid-area: cont4;
+  }
+  .footer #first .cont5 {
+    grid-area: cont5;
+  }
+  .footer #first .cont5 iframe {
+    width: 93%;
+    height: 15rem;
+  }
+  .footer #first .cont1 .fav {
+    font-size: 1.4rem;
+  }
+  .footer .sec2-f {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 200px) {
+  .sec1 #con {
+    left: 1rem;
+  }
+  .footer #first .cont1 {
+    display: none;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0%;
+  }
+  #academics .cont2 .box {
+    width: 85%;
+  }
+  #academics .cont2 .box h2 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+}
+@media only screen and (max-width: 275px) {
+  .sec1 #con {
+    left: 1rem;
+  }
+}
+@media only screen and (max-width: 160px) {
+  html {
+    font-size: 50%;
+  }
+  .sec1 #con {
+    left: 0.5rem;
+  }
+  .sec5 .cont1 .box h2 {
+    font-size: 1.5rem;
+  }
+  .footer #first .cont5 {
+    display: none;
+  }
+  #sec4 .content h2 {
+    font-size: 2.2rem;
+  }
+  .footer #first .cont2 {
+    display: none;
+  }
+  #academics .cont2 .box {
+    margin: 10px;
+  }
+  .sec4 .content img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .sec1 #con {
+    left: 7rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .sec1 #con {
+    width: 75%;
+    left: 6rem;
+  }
+  .sec1 #con h2 {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .sec1 #con {
+    width: 75%;
+    left: 6rem;
+  }
+  .sec1 #con h2 {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 406px) {
+  .right #seco {
+    display: none;
+  }
+  .right ul li:nth-child(5):hover {
+    transition: 1s ease;
+  }
+  .right ul li:nth-child(5):hover #seco {
+    transition: 1s ease;
+    display: none;
+  }
+  .sec1 #con {
+    width: 75%;
+    left: 6rem;
+  }
+  .sec1 #con h2 {
+    font-size: 2.1rem;
+  }
+  .sec1 #con span {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .sec1 #con span {
+    display: none;
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 260px) {
+  .sec1 #con h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 235px) {
+  .sec1 #con {
+    display: none;
+  }
+  .footer .sec1-f .cont1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 450px) {
+  #academics .cont2 .box {
+    margin: 2rem 2rem;
+    width: 19rem;
+  }
+}/*# sourceMappingURL=mobi.css.map */

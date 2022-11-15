@@ -1,0 +1,241 @@
+@media only screen and (max-width: 1270px) {
+  #nav1 {
+    display: none;
+  }
+  .count .img-cont .txt {
+    margin-top: 3rem;
+  }
+}
+#seco {
+  transition: 1s ease;
+  display: none;
+}
+
+.right ul li:hover {
+  transition: 1s ease;
+}
+.right ul li:hover #seco {
+  transition: 1s ease;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #nav1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 65px;
+  }
+  #nav1 #ser {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  #nav1 #ser input, #nav1 #ser search {
+    width: 94%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 0.2px solid black;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+  }
+  #nav1 #ser ::-moz-placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1 #ser :-ms-input-placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1 #ser ::placeholder {
+    font-size: 2.5rem;
+  }
+  #nav1:hover {
+    min-height: 63rem;
+    transition: 0.3s ease-in;
+  }
+  #nav1 .cont {
+    min-height: 65px;
+    display: none;
+    margin: auto;
+    padding: 0px;
+  }
+  #nav1 .cont ul {
+    visibility: none;
+    width: 80%;
+    border: none;
+    display: block;
+    padding: 0%;
+    margin-top: 0rem;
+  }
+  #nav1 .cont ul li {
+    border-bottom: 0.2px solid black;
+    background-color: white;
+    display: block;
+    padding: 1rem 0rem;
+  }
+  #nav1 .cont ul li a {
+    font-size: 1.6rem;
+    color: gray;
+  }
+  #nav1:hover .cont {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    transition: 2s ease-in;
+  }
+  .nav2 {
+    min-height: 79px;
+    flex-direction: column;
+  }
+  .nav2 .left {
+    width: 73%;
+  }
+  .sec1 .con {
+    margin-left: 5rem;
+    background-color: rgba(13, 13, 13, 0.5);
+    width: 72rem;
+  }
+  .sec1 .con h2 {
+    font-size: 3rem;
+  }
+  .sec1 .con span {
+    width: 6rem;
+  }
+  .footer .sec1-f {
+    width: 100%;
+    min-height: 67vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "cont1 cont2 cont3 cont4" "cont5 cont5 cont5 cont5";
+    grid-gap: 0.2rem;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  .footer .sec1-f .cont1 {
+    grid-area: cont1;
+  }
+  .footer .sec1-f .cont2 {
+    grid-area: cont2;
+  }
+  .footer .sec1-f .cont3 {
+    grid-area: cont3;
+  }
+  .footer .sec1-f .cont4 {
+    grid-area: cont4;
+  }
+  .footer .sec1-f .cont5 {
+    grid-area: cont5;
+  }
+  .footer .sec1-f .cont5 iframe {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .sec1 .con {
+    margin-left: -3rem;
+  }
+  .sec5 .cont2 {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 795px), (min-width: 450) {
+  .sec1 .con {
+    width: 39rem;
+    margin-left: -1rem;
+  }
+  .sec1 .con h2 {
+    font-size: 2.5rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  #sec2 {
+    flex-direction: column;
+  }
+  #sec2 .cont {
+    width: 98%;
+    flex-direction: column;
+  }
+  #sec2 .cont .img-cont {
+    margin-left: 0px;
+  }
+  #sec2 .right-cont {
+    width: 98%;
+    text-align: center;
+    line-height: 0.1rem;
+  }
+  #sec2 .right-cont h2 {
+    line-height: 3.8rem;
+    margin: 0.3rem auto;
+  }
+  #sec2 .right-cont h4 {
+    line-height: 2.4rem;
+  }
+  .footer #first {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.3fr 0.4fr 0.4fr 0.5fr;
+    grid-template-areas: "cont1" "cont2" "cont3" "cont4" "cont5";
+  }
+  .footer #first h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .footer #first .cont1 {
+    grid-area: cont1;
+  }
+  .footer #first .cont2 {
+    grid-area: cont2;
+  }
+  .footer #first .cont3 {
+    grid-area: cont3;
+  }
+  .footer #first .cont4 {
+    grid-area: cont4;
+  }
+  .footer #first .cont5 {
+    grid-area: cont5;
+  }
+  .footer #first .cont5 iframe {
+    width: 93%;
+    height: 15rem;
+  }
+  .footer .sec2-f .cont {
+    width: 85%;
+    text-align: center;
+  }
+  .sec4 .content h2 {
+    text-align: center;
+  }
+  .sec4 .content p {
+    margin: 0px 1rem;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .sec1 .con {
+    margin-left: -3rem;
+  }
+}
+@media only screen and (max-width: 530px), (min-width: 510px) {
+  .sec1 .con {
+    margin-left: -2rem;
+  }
+}
+@media only screen and (min-width: 580px) {
+  .sec1 #con {
+    left: 14.5rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .sec1 #con {
+    left: 19.5rem;
+  }
+}
+@media only screen and (min-width: 795px) {
+  .sec1 #con {
+    width: 70%;
+    left: 14.5rem;
+  }
+}/*# sourceMappingURL=tablet.css.map */
